@@ -32,13 +32,14 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/index', 'Home::index');
 $routes->get('/login', 'Home::login');
-$routes->get('/feriv', 'Home::feriv');
 $routes->get('/about', 'Home::about');
 $routes->get('/admin', 'Home::admin');
+$routes->get('/detail', 'Home::detail');
 $routes->get('/register', 'Home::register');
 $routes->get('/berita1', 'Home::berita1');
 $routes->get('/berita2', 'Home::berita2');
 $routes->get('/berita3', 'Home::berita3');
+$routes->get('/rm', 'Home::rm');
 
 /**
  * --------------------------------------------------------------------

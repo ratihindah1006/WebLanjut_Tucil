@@ -11,7 +11,7 @@
   <div class="form-group">
     <label for="username">Username</label>
     <input type="username" class="form-control" id="username" aria-describedby="emailHelp" name="username">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your username with anyone else.</small>
   </div>
 
   <div class="form-group">

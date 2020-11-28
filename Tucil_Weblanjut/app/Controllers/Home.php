@@ -12,19 +12,6 @@ class Home extends BaseController
 		return view('Login');
 	}
 
-	public function verif()
-	{
-        $email = $this->request->getVar('email');
-        $password = $this->request->getVar('password');
-        if ($email=="ratihindah@email.com" && $password=="ratih123") {
-            return redirect()->to('/Home'); 
-        }
-        else {
-            return redirect()->to('/Login'); 
-		}
-		
-	}
-
 	public function about()
 	{
 		return view('About');
@@ -40,6 +27,11 @@ class Home extends BaseController
 		return view('Admin');
 	}
 
+	public function detail()
+	{
+		return view('Detail');
+	}
+
 	public function berita1()
 	{
 		return view('Berita1');
@@ -53,6 +45,11 @@ class Home extends BaseController
 	public function berita3()
 	{
 		return view('Berita3');
+	}
+
+	public function rm()
+	{
+		return view('RM');
 	}
 
 
